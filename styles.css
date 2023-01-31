@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+  background-color: rgba(68, 68, 68, 0.034);}
+#octocat {
+  display: flex;
+ 
+  width: 284px;
+  margin: 50px auto;
+}
+
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco, "Courier New", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", monospace;
+}
+
+.myPDF {
+  display: block;
+  width: 777px;
+  height: 600px;
+  margin: 110px auto;
+ 
+  background-image: linear-gradient(to left, #0052b0, #b340b3);
+}
+
+.myPDF iframe {
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  /*max-width: 200px;*/
+  height: inherit;
+  border-radius: 30px;
+}
+
+#gallery {
+   
+  background: rgba(252, 0, 0, 0.123);
+  height: fit-content;
+  width: fit-content;
+  margin: 110px auto;
+  display: block;
+}
+
+#gallery iframe {
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  
+  height: inherit;
+  border-radius: 30px;
+  width: 900px;
+  height: 607px;
+  margin: 50px auto;
+  
+}
