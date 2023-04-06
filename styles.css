@@ -59,3 +59,24 @@ p {
   margin: 50px auto;
   
 }
+
+#timeline {
+   
+  background: rgba(252, 0, 0, 0.123);
+  height: fit-content;
+  width: fit-content;
+  margin: 110px auto;
+  display: block;
+}
+
+#timeline iframe {
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  
+  height: inherit;
+  border-radius: 30px;
+  width: 900px;
+  height: 607px;
+  margin: 50px auto;
+}
