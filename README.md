@@ -1,6 +1,10 @@
 # Welcome to GitHub
-# My Academic School Calender 2022/2023
+# My Academic School Calender 2023/2024
 > The lick below is a copy of Link to my official academic calendar for your *next* school term:<br>
+> [Calendar of Activities for the 2023-2024 Academic Year.pdf](https://github.com/marrious11/marrious11.github.io/files/12311620/Calendar.of.Activities.for.the.2023-2024.Academic.Year.pdf)
+
+# My Academic School Calender 2022/2023
+> The lick below is a copy of Link to my official academic calendar for your *current/past* school term:<br>
 > [calender of activities 2022_2023.pdf](https://github.com/marrious11/marrious11/files/10476752/calender.of.activities.2022_2023.pdf) 
 
 
