@@ -80,3 +80,47 @@ p {
   height: 607px;
   margin: 50px auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-container strong {
+  display: inline-block;
+  padding-left: 100%;
+}
