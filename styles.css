@@ -5,7 +5,7 @@
 body {
   background-color: rgba(68, 68, 68, 0.034);
   background-image:url(./images/pexels-rickyrecap-1907784.jpg);
-  backdrop-filter: blur(3px);
+ backdrop-filter: blur(3px);
   background-repeat:  no-repeat;
   background-size: cover;
   background-position: center center;
@@ -25,7 +25,7 @@ body {
 }
 #calender-body {
    background-image:url(./images/homepic1.jpg);
-   backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   background-repeat:  no-repeat;
   background-size: cover;
   background-position: center center;
@@ -112,9 +112,7 @@ footer {
   width: inherit;
 
   height: inherit;
-  border-radius: 30px;
-  width: 900px;
-  height: 607px;
+  border-radius: 30px;  
   margin: 50px auto;
 }
 
@@ -133,8 +131,8 @@ footer {
 
   height: inherit;
   border-radius: 30px;
-  width: 900px;
-  height: 607px;
+/*width: 900px;
+  height: 607px;*/
   margin: 50px auto;
 }
 
