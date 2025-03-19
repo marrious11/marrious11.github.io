@@ -1,17 +1,37 @@
 * {
   margin: 0px;
   padding: 0px;
-
 }
-body{
-  background-color: rgba(68, 68, 68, 0.034);}
-#octocat {
-  display: flex;
- 
-  width: 284px;
-  margin: 50px auto;
+body {
+  background-color: rgba(68, 68, 68, 0.034);
+  background-image:url(./images/pexels-rickyrecap-1907784.jpg);
+  backdrop-filter: blur(3px);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
+#index-page {
+  background-image: url(./images/cal1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  width: 100vw;
+  object-fit: cover;
+  z-index: -1;
+}
+#calender-body {
+   background-image:url(./images/homepic1.jpg);
+   backdrop-filter: blur(5px);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+color: #f0f0f0;
+}
 p {
   display: block;
   width: 400px;
@@ -25,21 +45,60 @@ p {
   width: 777px;
   height: 600px;
   margin: 110px auto;
- 
+
   background-image: linear-gradient(to left, #0052b0, #b340b3);
 }
 
 .myPDF iframe {
   justify-content: center;
   align-items: center;
-  width: inherit;
-  /*max-width: 200px;*/
-  height: inherit;
+  width: 100%;
+  height: 500px;
+  border: none;
   border-radius: 30px;
 }
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: end;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align:left;
+  padding: 10px;
+  position: static;
+  width: 100%;
+  bottom: 0;
+}
+
 #gallery {
-   
   background: rgba(252, 0, 0, 0.123);
   height: fit-content;
   width: fit-content;
@@ -51,17 +110,15 @@ p {
   justify-content: center;
   align-items: center;
   width: inherit;
-  
+
   height: inherit;
   border-radius: 30px;
   width: 900px;
   height: 607px;
   margin: 50px auto;
-  
 }
 
 #timeline {
-   
   background: rgba(252, 0, 0, 0.123);
   height: fit-content;
   width: fit-content;
@@ -73,35 +130,13 @@ p {
   justify-content: center;
   align-items: center;
   width: inherit;
-  
+
   height: inherit;
   border-radius: 30px;
   width: 900px;
   height: 607px;
   margin: 50px auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes marquee {
   0% {
